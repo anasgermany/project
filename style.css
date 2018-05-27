@@ -1,0 +1,115 @@
+html{
+    
+    height: 100%;
+    
+}
+
+body{
+    height: 100%;
+    margin;0;
+    font-family: helvetica,arial,sans-serif;
+}
+
+#logo{
+    margin-left: 30px;
+    margin-top: 15px;
+    max-width: 350;
+}
+
+#logo img{
+    max-width: 350px;
+}
+#menu{
+    
+    float: right;
+    margin-top: 90px;
+}
+
+#menu ul li{
+    float: left;
+    list-style: none; 
+    width: 120px; 
+    text-align: left; 
+    color: #999; 
+    font-size: 16px; 
+    font-weight: 400;
+    
+}
+
+
+#menu a{
+    text-decoration: none;
+    color:#999
+}
+
+#menu a:hover{
+    color: #5cc5ed;
+}
+
+footer{
+    position: relative;
+    float: left;
+    background: #BBB;
+    color:#FFF;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#presentacion{
+    
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-image: url(../imagenes/catering.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#slogan{
+     
+    width: 100%;
+    height: 50%;
+    background-image:url(../imagenes/logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#slogan p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+    float: right;
+    margin-right: 70px;
+    position: relative;
+    top:150px;
+    text-shadow: 2px 2px 1px #CCC;
+    
+}
+
+
+@media(max-width:700px){#presentacion{
+    background-image: url(../imagenes/catering.png)}
+    #logo{
+        max-width: 280px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    #logo img{
+        max-width: 280px
+    } 
+    #menu{
+        margin-top: 5px
+    
+     }
+    }
+#slogan p{
+    
+    font-size: 30px;
+    padding-left:10px;
+ }
+
+}
